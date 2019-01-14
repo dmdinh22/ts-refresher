@@ -1,7 +1,7 @@
-let myString: String;
-let myNum: Number;
-let myBool: Boolean;
-let something: String;
+let myString: string;
+let myNum: number;
+let myBool: boolean;
+let something: string;
 let myVar: any;
 
 // one way of defining arrays
@@ -10,12 +10,12 @@ let myVar: any;
 // let boolArray: Boolean[];
 
 // another way of defining arrays
-let strArray: Array<String>;
-let numArray: Array<Number>;
-let boolArray: Array<Boolean>;
+let strArray: Array<string>;
+let numArray: Array<number>;
+let boolArray: Array<boolean>;
 
 // tuples
-let strNumTuple: [String, Number];
+let strNumTuple: [string, number];
 
 something = 'what';
 myString = `${something} is going on`;
